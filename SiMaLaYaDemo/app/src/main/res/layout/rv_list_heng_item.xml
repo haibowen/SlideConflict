@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/iv_pic_item_list"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:focusable="false"
+            android:background="@color/colorAction" />
+        <TextView
+            android:id="@+id/tv_show_item_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="这是另一种布局"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
